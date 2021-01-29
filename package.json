@@ -1,0 +1,26 @@
+{
+  "name": "rule-validation-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev-server": "nodemon app.js"
+  },
+  "keywords": [
+    "rule",
+    "data",
+    "message",
+    "status"
+  ],
+  "author": "chimobi mbah a.k.a mr-chidex",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  }
+}
